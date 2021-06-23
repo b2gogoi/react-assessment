@@ -1,0 +1,11 @@
+.totalOrder {
+ color: white;
+ background-color: #998989;
+ width: 25%;
+ 
+}
+
+.totalOrder {
+    display: flex;
+    justify-content: center;
+}
