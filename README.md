@@ -68,3 +68,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### API URL
+https://order-pizza-api.herokuapp.com/api/orders
+
+`{
+	"Crust": "NORMAL",
+	"Flavor": "CHICKEN-FAJITA",
+	"Order_ID": 3,
+	"Size": "L",
+	"Table_No": 3,
+	"Timestamp": "2019-12-03T18:21:08.710006"
+}`
