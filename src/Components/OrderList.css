@@ -1,11 +1,19 @@
 .totalOrder {
- color: white;
- background-color: #998989;
- width: 25%;
- 
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
 
-.totalOrder {
+.totalNum, .servedNum {
     display: flex;
+    background-color: #998989;
+    color: white;
+    width: 35%;
     justify-content: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    
 }

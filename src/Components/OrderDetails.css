@@ -1,0 +1,70 @@
+.order_details {
+   display: flex;
+   background-color: white;
+   width: 100%; 
+}
+
+.tableNumber, .crust, .flavor, .size {
+    display: flex;
+    background-color: rgb(172, 124, 124);
+    color: #998989;
+    text-align: left;
+    width: 100%;  
+    order:2;
+    flex-direction: row;
+    align-content: space-around;
+    
+}
+
+.allData, .dataValue {
+    display: flex;
+    background-color: white;
+    color: #998989;
+    text-align: left;
+    flex-direction: column;
+    width: 100%;
+    font-weight: 500;
+    font-size: large;   
+}
+.pizzaDetails {
+    background-color: white;
+    width: 478px;
+    height: 180px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.button {
+    margin: 20px;
+    text-align: center;
+}
+.readyButton {
+    background-color: #998989;
+    color: white;
+    align-content: center;
+    box-shadow: #998989;
+    border: 2px solid #998989;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-style: normal;
+    font-size: large;
+   }
+   .readyButton:disabled {
+    background-color: white;
+    color: #998989;
+    align-content: center;
+    border: 1px solid #998989;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-style: normal;
+    font-size: large;
+   }
+   .btnContent {
+       padding: 3px;
+   }
+   .test {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50%,1fr));
+   }
